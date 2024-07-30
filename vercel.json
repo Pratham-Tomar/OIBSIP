@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "OIBSIP_tributepage",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/OIBSIP_tributepage"
+      "dest": "/index.html"
     }
   ]
 }
